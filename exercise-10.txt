@@ -13,4 +13,5 @@ mysql> describe Room;
 | floor          | int(11)    | NO   |     | NULL    |                |
 | RentedOn       | datetime   | YES  |     | NULL    |                |
 | VacantOn       | datetime   | YES  |     | NULL    |                |
+| RoomNumber     | int(11)    | NO   |     | NULL    |                |
 +----------------+------------+------+-----+---------+----------------+
