@@ -1,0 +1,7 @@
+mysql -u nk1tz
+show databases;
+use decodemtl_addressbook;
+CREATE TABLE Account ( id int NOT NULL AUTO_INCREMENT, PRIMARY KEY (id));  
+CREATE TABLE Addressbook ( id int NOT NULL AUTO_INCREMENT, PRIMARY KEY (id)); 
+CREATE TABLE Entry ( id int NOT NULL AUTO_INCREMENT, PRIMARY KEY (id)); 
+CREATE TABLE Test ( id int NOT NULL AUTO_INCREMENT, PRIMARY KEY (id)); 
