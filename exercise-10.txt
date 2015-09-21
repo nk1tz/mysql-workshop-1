@@ -12,4 +12,6 @@ mysql> describe Room;
 | Windows        | int(11)    | NO   |     | NULL    |                |
 | size           | int(11)    | NO   |     | NULL    |                |
 | floor          | int(11)    | NO   |     | NULL    |                |
+| RentedOn       | datetime   | YES  |     | NULL    |                |
+| VacantOn       | datetime   | YES  |     | NULL    |                |
 +----------------+------------+------+-----+---------+----------------+
