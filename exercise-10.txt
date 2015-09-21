@@ -10,4 +10,6 @@ mysql> describe Room;
 | Occupied       | tinyint(1) | NO   |     | NULL    |                |
 | Carpet         | tinyint(1) | NO   |     | NULL    |                |
 | Windows        | int(11)    | NO   |     | NULL    |                |
+| size           | int(11)    | NO   |     | NULL    |                |
+| floor          | int(11)    | NO   |     | NULL    |                |
 +----------------+------------+------+-----+---------+----------------+
