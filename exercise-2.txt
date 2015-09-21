@@ -1,0 +1,4 @@
+mysql-ctl start
+mysql -u nk1tz
+create database decodemtl_test;
+create database decodemtl_addressbook;   
