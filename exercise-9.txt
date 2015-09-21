@@ -1,0 +1,11 @@
+mysql -u nk1tz
+
+mysql> describe Chickens;
++-----------+---------------+------+-----+---------+----------------+
+| Field     | Type          | Null | Key | Default | Extra          |
++-----------+---------------+------+-----+---------+----------------+
+| id        | int(11)       | NO   | PRI | NULL    | auto_increment |
+| birthday  | datetime      | NO   |     | NULL    |                |
+| deathdate | datetime      | YES  |     | NULL    |                |
+| gender    | enum('M','F') | NO   |     | NULL    |                |
++-----------+---------------+------+-----+---------+----------------+
