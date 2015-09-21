@@ -1,0 +1,13 @@
+mysql -u nk1tz
+
+mysql> describe Room;
++----------------+------------+------+-----+---------+----------------+
+| Field          | Type       | Null | Key | Default | Extra          |
++----------------+------------+------+-----+---------+----------------+
+| id             | int(11)    | NO   | PRI | NULL    | auto_increment |
+| PrivateKitchen | tinyint(1) | NO   |     | NULL    |                |
+| Rentable       | tinyint(1) | NO   |     | NULL    |                |
+| Occupied       | tinyint(1) | NO   |     | NULL    |                |
+| Carpet         | tinyint(1) | NO   |     | NULL    |                |
+| Windows        | int(11)    | NO   |     | NULL    |                |
++----------------+------------+------+-----+---------+----------------+
