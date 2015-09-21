@@ -7,7 +7,6 @@ mysql> describe Room;
 | id             | int(11)    | NO   | PRI | NULL    | auto_increment |
 | PrivateKitchen | tinyint(1) | NO   |     | NULL    |                |
 | Rentable       | tinyint(1) | NO   |     | NULL    |                |
-| Occupied       | tinyint(1) | NO   |     | NULL    |                |
 | Carpet         | tinyint(1) | NO   |     | NULL    |                |
 | Windows        | int(11)    | NO   |     | NULL    |                |
 | size           | int(11)    | NO   |     | NULL    |                |
